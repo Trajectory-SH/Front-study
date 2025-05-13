@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Forms Demo</h1>
+    <form action="/hello/">
+      <label for="username">Enter a username</label>
+      <input type="text" placeholder="username" id="username" name="userName" />
+      <label for="password"></label>
+      <input
+        type="password"
+        placeholder="password"
+        id="password"
+        name="userPassword"
+      />
+      <input type="color" />
+      <input type="number" placeholder="input number" />
+      <button type="button">button</button>
+      <button type="submit">submit</button>
+      <button>hello</button>
+    </form>
+    <h2>Hijacking Searches</h2>
+    <form action="https://www.reddit.com/search/">
+      <label for="searchObject">this is reddit searching Machine</label>
+      <input type="text" name="q" id="searchObject" />
+      <button>goReddit</button>
+    </form>
+
+    <h2>Check Boxs</h2>
+    <form action="/birds">
+      <label for="agree_tos">I agree to everythings</label>
+      <input type="checkbox" name="agree_tos" id="agree_tos" />
+      <p>
+        <label for="xs">xs: </label>
+        <input type="radio" name="size" id="xs" value="31313" />
+        <label for="m">m:</label>
+        <input type="radio" name="size" id="m" value="121111" />
+        <label for="l">l: </label>
+        <input type="radio" name="size" id="l" value="111235124" />
+        <label for="pet-select">Choose a pet</label>
+
+        <select name="pets" id="pet-select">
+          <option value="">==한가지를 선택해보렴==</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="bird">bird</option>
+        </select>
+      </p>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
