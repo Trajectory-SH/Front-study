@@ -1,0 +1,15 @@
+/* element 요소 */
+h1 {
+  color: green;
+}
+h2 {
+  color: magenta;
+}
+p {
+  background-color: black;
+  color: white;
+}
+button {
+  background-color: pink;
+  color: red;
+}
