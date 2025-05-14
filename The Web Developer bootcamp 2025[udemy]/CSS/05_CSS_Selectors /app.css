@@ -1,0 +1,59 @@
+body {
+  background-color: #e9edc9;
+}
+
+body {
+  background-color: blue;
+}
+
+h1,
+h2 {
+  color: rgb(39, 27, 11);
+}
+nav > button {
+  background-color: #3a86ff;
+}
+
+/* button {
+  font-size: 30px;
+  background-color: blueviolet;
+  color: aliceblue;
+} */
+
+span {
+  color: #3a86ff;
+}
+
+.tag {
+  background-color: red;
+  font-size: 10px;
+  color: aliceblue;
+  letter-spacing: 10px;
+}
+span a {
+  color: darkgoldenrod;
+}
+
+.post a {
+  color: teal;
+}
+
+input[type="password"] {
+  color: slateblue;
+}
+
+section[class="post"] {
+  background-color: #3a86ff;
+}
+
+.post button:hover {
+  background-color: magenta;
+}
+
+.post button:active {
+  background-color: burlywood;
+}
+
+h2::first-letter {
+  font-size: 40px;
+}
