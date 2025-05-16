@@ -17,9 +17,9 @@ button {
 }
 
 button:hover {
-  border-color: #f1ff5c;
+  border-color: #464645;
   color: white;
-  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  box-shadow: 0 0.5em 0.5em -0.4em #9d9e99;
   transform: translateY(-0.25em);
   cursor: pointer;
 }
